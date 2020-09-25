@@ -1,0 +1,28 @@
+.btn {
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    color: $text-light;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-radius: 100px;
+    @include transition-ease;
+
+    &--dark {
+        background-color: $bg-dark;
+    }
+
+    &--primary {
+        background-color: $primary-color;
+    }
+
+    &:hover {
+        border-top: 2px solid $bg-light;
+        border-bottom: 2px solid $bg-light;
+        border-left: 2px solid $bg-dark;
+        border-right: 2px solid $bg-dark;
+        background-color: transparent;
+    }
+}

@@ -9,5 +9,24 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $text-font;
+    background-color: $bg-dark;
+}
+
+a {
+    font-family: $title-font;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 8rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }

@@ -1,0 +1,92 @@
+h1, h2, h3, h4 {
+    font-family: $title-font;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.heading-1 {
+    font-size: 3.5rem;
+    color: $text-light;
+}
+
+.heading-2 {
+    font-size: 2rem;
+}
+
+.heading-3 {
+    font-size: 1.5rem;
+}
+
+.heading-1,
+.heading-2,
+.heading-3 {
+    font-weight: 400;
+}
+
+.text {
+
+    &--light {
+        color: $text-light;
+    }
+
+    &--grey {
+        color: $text-grey;
+    }
+    
+    &--secondary,
+    &--link  {
+        color: $secondary-color;
+    }
+
+    &--link{
+        font-family: $text-font;
+        @include transition-ease;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+
+.section {
+    &__header {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    
+    &__heading {
+        margin-bottom: 2rem;
+
+        &__underline {
+            width: 100px;
+            height: 1px;
+            background-color: $text-light;
+            margin: 0 auto;
+        }
+    }
+
+    
+}
+
+.social {
+    i {
+        margin-right: 1rem;
+        padding: 1rem;
+        border-radius: 50%;
+        color: $text-dark;
+        display: inline-block;
+        width: 47px;
+        text-align: center;
+        @include transition-ease;
+
+        &:hover {
+            transform: translateY(-5px);
+            background-color: $primary-color;
+            color: $text-light;
+        }
+    }
+}
+

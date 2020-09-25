@@ -1,1 +1,13 @@
-@import "./base/globals";
+@import "abstracts/variable";
+@import "abstracts/mixins";
+
+@import "base/globals";
+@import "base/utilities";
+@import "base/typography";
+
+@import "components/navigation";
+@import "components/logo";
+@import "components/btn";
+
+@import "layout/header";
+@import "layout/about";

@@ -1,0 +1,21 @@
+.logo {
+
+    &__brand {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $primary-color;
+        letter-spacing: 2px;
+        @include transition-ease;
+
+        span {
+            color: $secondary-color;
+        }
+
+        &:hover {
+            span {
+                color: $text-dark;
+            }
+        }
+    }
+}
