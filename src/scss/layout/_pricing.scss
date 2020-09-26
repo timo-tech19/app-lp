@@ -1,0 +1,49 @@
+#pricing {
+    background-color: $secondary-color;
+}
+
+.pricing {
+
+    &__box {
+        display: flex;
+        justify-content: space-around;
+    }  
+
+    &__item {
+        width: 30%;
+        background-color: $bg-light;
+        text-align: center;
+        padding: 2rem 0 0;
+        border-radius: 2px;
+
+        a {
+            position: relative;
+            top: 1.8rem;
+
+            &:hover {
+                background-color: $bg-light;
+                color:$bg-dark;
+            }
+        }
+    }
+
+    &__value {
+        font-size: 3rem;
+        color: $primary-color;
+        font-family: $title-font;
+        margin-bottom: 2rem;
+    }
+
+    &__list {
+        li {
+            font-size: 1.2rem;
+            font-size: 300;
+            color: $text-grey;
+ 
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+}

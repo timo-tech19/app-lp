@@ -252,3 +252,36 @@ p {
     .screenshot__box div img:hover {
       transform: translateY(-5px);
       box-shadow: 2px 14px 15px rgba(0, 0, 0, 0.3); }
+
+#pricing {
+  background-color: #535bd4; }
+
+.pricing__box {
+  display: flex;
+  justify-content: space-around; }
+
+.pricing__item {
+  width: 30%;
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem 0 0;
+  border-radius: 2px; }
+  .pricing__item a {
+    position: relative;
+    top: 1.8rem; }
+    .pricing__item a:hover {
+      background-color: #fff;
+      color: #1c1c1c; }
+
+.pricing__value {
+  font-size: 3rem;
+  color: #1dc9e3;
+  font-family: "Unica One", cursive;
+  margin-bottom: 2rem; }
+
+.pricing__list li {
+  font-size: 1.2rem;
+  font-size: 300;
+  color: #999; }
+  .pricing__list li:not(:last-child) {
+    margin-bottom: 1rem; }
