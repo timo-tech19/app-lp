@@ -172,6 +172,28 @@ p {
     border-right: 2px solid #1c1c1c;
     background-color: transparent; }
 
+.form {
+  width: 60%;
+  margin: 0 auto;
+  display: flex; }
+  .form .email {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #f0f0f0;
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    margin-right: 2rem; }
+  .form .submit {
+    color: #1dc9e3;
+    font-family: "Unica One", cursive; }
+    .form .submit:hover {
+      color: #f0f0f0;
+      border-right: 2px solid #fff;
+      border-left: 2px solid #fff; }
+
 #hero {
   height: 90vh;
   background-image: linear-gradient(to right, rgba(142, 84, 233, 0.9) 20%, rgba(71, 118, 230, 0.9)), url(../img/home-bg.jpg);
@@ -285,3 +307,16 @@ p {
   color: #999; }
   .pricing__list li:not(:last-child) {
     margin-bottom: 1rem; }
+
+#newsletter {
+  background-image: linear-gradient(rgba(29, 201, 227, 0.9), rgba(29, 201, 227, 0.9)), url(../img/newsletter-bg.jpg);
+  background-size: cover;
+  background-position-y: -280px; }
+
+#footer {
+  padding: 4rem 0; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
